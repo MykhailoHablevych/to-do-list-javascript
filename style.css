@@ -1,0 +1,24 @@
+/*body {
+    background-color: black;
+    color: white;
+}*/
+
+.done {
+    opacity: 50%;
+}
+
+.done > .todo-text {
+    text-decoration: line-through;
+}
+
+.todo-text {
+    display: inline-block;
+}
+
+button + button {
+    margin-left: 5px;
+}
+
+input + button {
+    margin-left:  5px;
+}
